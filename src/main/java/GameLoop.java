@@ -1,9 +1,9 @@
 import javafx.animation.AnimationTimer;
 
 public class GameLoop extends AnimationTimer {
-
-    private GameState state;
-    private GameView view;
+    private final GameState state;
+    private final GameView view;
+    public int score = 0;
 
     public GameLoop(GameState state, GameView view) {
         this.state = state;
@@ -13,7 +13,5 @@ public class GameLoop extends AnimationTimer {
     @Override
     public void handle(long now) {
         view.render();
-        state.update();
     }
 }
-

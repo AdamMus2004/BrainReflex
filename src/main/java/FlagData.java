@@ -1,14 +1,10 @@
-import java.util.List;
-
 public class FlagData {
-    private String imgPath;
-    private String correctAnswer;
-    private List<String> options;
+    private final String imgPath;
+    private final String correctAnswer;
 
     public FlagData(String imgPath, String correctAnswer) {
         this.imgPath = imgPath;
         this.correctAnswer = correctAnswer;
-        this.options = options;
     }
 
     public String getImgPath() {
@@ -17,9 +13,5 @@ public class FlagData {
 
     public String getCorrectAnswer() {
         return correctAnswer;
-    }
-
-    public List<String> getCurrentOptions() {
-        return options;
     }
 }
