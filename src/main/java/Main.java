@@ -6,10 +6,9 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) {
-
-        GameView view = new GameView();
-
         GameState state = new GameState();
+
+        GameView view = new GameView(state);
 
         GameLoop loop = new GameLoop(state,view);
 
@@ -23,7 +22,6 @@ public class Main extends Application {
 
         loop.start();
 
-        // TODO: uruchomić pętlę gry (AnimationTimer)
     }
 
     public static void main(String[] args) {
