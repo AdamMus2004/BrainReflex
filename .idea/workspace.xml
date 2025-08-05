@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17855a31-c54b-4825-b1d9-9feedf8875dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+    <list default="true" id="17855a31-c54b-4825-b1d9-9feedf8875dc" name="Changes" comment="feat: testowanie działania JavaFX">
+      <change afterPath="$PROJECT_DIR$/src/main/java/GameLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GameState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GameView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MenuView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/Adam/Desktop/JavaFX/brainReflex/src/main/java/Main.java",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
@@ -99,11 +99,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1754397730329</updated>
-      <workItem from="1754397731352" duration="617000" />
+      <workItem from="1754397731352" duration="7813000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: testowanie działania JavaFX">
+      <option name="closed" value="true" />
+      <created>1754398422205</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1754398422205</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: testowanie działania JavaFX" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: testowanie działania JavaFX" />
   </component>
 </project>
